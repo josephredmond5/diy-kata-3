@@ -1,10 +1,6 @@
-const numberToReversedDigits = (num) => {
-    const numString = num.toString();
-    const reverseDigits = [''];
-    for(let i = numString.length - 1; i >= 0; i--) {
-        reverseDigits.push(numString[i]);
-    }
-    return reverseDigits;
+const numberToReversedDigits = (number) => {
+  const numbers = [1, 2 , 3, 4, 5];
+  const newArr = numbers.concat().reverse();
 };
 
 module.exports = numberToReversedDigits;
